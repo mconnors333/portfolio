@@ -1,0 +1,281 @@
+body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.jumbotron {
+
+    background-image: url("biltmore3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+    height: 900px;
+
+
+}
+
+.display-4 {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+
+}
+
+.display-4 span {
+
+    position: absolute;
+    top: -75px;
+
+}
+
+.display-5 {
+
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+}
+
+.lead {
+
+    font-size: 200%;
+    color: white;
+
+}
+
+.m-y-2 {
+
+    border-color: white;
+
+}
+
+.inJumbo {
+
+    color: white;
+}
+
+#newsletter {
+
+    width: 350px;
+
+}
+
+img {
+
+      max-width: 100%;
+
+}
+
+
+#footer {
+
+
+  text-align: center;
+  padding-top: 125px;
+  margin-top: 50px;
+  padding-bottom: 125px;
+
+
+}
+
+.card-title {
+
+    text-align: center;
+}
+
+.card-button {
+
+    margin: 0 auto;
+}
+
+
+#appstore {
+
+    width: 250px;
+}
+
+.row {
+
+    text-align: center;
+}
+
+#navbar {
+
+    float: right;
+    padding-right: 30px;
+
+
+}
+
+li {
+
+    padding-right: 30px;
+
+}
+
+#me {
+
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: 20px;
+
+
+}
+
+#intro {
+
+    margin-top: 30px;
+
+}
+
+.socialIcons {
+
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+
+}
+
+#viewbug {
+
+    border-radius: 50%;
+
+}
+
+.cards {
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  margin-bottom: 300px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.trivia {
+  height: 355px;
+}
+
+/*          This IS WHERE THE RESPONSIVENESS WILL FIX MY SITE ON MOBILE*/
+@media (max-width: 1200px) {
+  .trivia {
+    height: 286px;
+  }
+}
+
+@media (max-width: 500px) {
+
+.jumbotron {
+
+    background-image: url("mobile.jpg");
+    background-attachment: scroll;
+    height: 700px;
+
+}
+
+.display-4 {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+
+}
+
+.display-4 span {
+
+    position: absolute;
+    top: -75px;
+
+}
+
+.display-5 {
+
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+}
+    #me {
+
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: 90px;
+
+
+}
+
+    .socialIcons {
+
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+
+}
+
+       #navbar {
+
+    float: right;
+    padding-right: 10px;
+
+
+}
+
+
+    .container {
+
+        margin: 0px 10px 0px 10px !important;
+
+    }
+
+    .display-4 span {
+
+    position: absolute;
+    top: -100px;
+
+
+  }
+
+      #intro {
+
+      font-size: 85%;
+      font-size: bold;
+      margin-top: 15px;
+
+}
+
+    .cards {
+      width: 400px;
+      height: 300px;
+      text-align: center;
+      padding: 20px;
+      margin-bottom: 100px;
+    }
+
+
+    .flex-container {
+      display: flex;
+      flex-flow: column;
+      flex-flow: wrap;
+      justify-content: center;
+    }
+
+    .trivia {
+      height: 254px;
+    }
+    .rows {
+      margin-bottom: 100px
+    }
+}
