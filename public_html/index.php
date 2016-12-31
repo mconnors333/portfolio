@@ -72,44 +72,55 @@
         <div class="container">
 
         <h2 class="display-4"><span id="portfolio"></span>Portfolio</h2>
-
+                <div class="flex-container">
+                <div class="cards">
                 <img class="card-img-top" src="fitwithfriends.png" alt="Card image cap">
                 <div class="card card-block">
                   <h3 class="card-title">Fit with Friends</h3>
                   <p class="card-text">Currently in development.  My way of revolutionizing fitness.</p>
                   <p><a href="http://fitwithfriends.net/" target="_blank" class="btn btn-success">Check it Out!</a></p>
                 </div>
+                </div>
+                <div class="cards">
                   <img class="card-img-top" src="secret-diary.png" alt="Card image cap">
                 <div class="card card-block">
                   <h3 class="card-title">Secret Diary</h3>
                   <p class="card-text">Web App that allows users to log in and save their thoughts.</p>
                   <p><a href="/secret-diary" target="_blank" class="btn btn-success">Check it Out!</a></p>
                 </div>
+                </div>
+                <div class="cards">
                     <img class="card-img-top" src="weather-app.png" alt="Card image cap">
                 <div class="card card-block">
                   <h3 class="card-title">Weather App</h3>
                   <p class="card-text">Weather App using the openweathermap.org API</p>
                   <p><a href="/weather-app" target="_blank" class="btn btn-success card-button">Check it Out!</a></p>
                 </div>
+                </div>
+                <div class="cards">
                 <img class="card-img-top memorable" src="Memorable-Places.png" alt="Card image cap">
                 <div class="card card-block">
                   <h3 class="card-title mem" >Memorable Places</h3>
                   <p class="card-text">Maps app that uses Xcode &amp; Swift</p>
                   <p><a href="https://github.com/mconnors333/Memorable-Places" target="_blank" class="btn btn-success">Check it Out!</a></p>
                 </div>
+                </div>
+                <div class="cards">
                   <img class="card-img-top trivia" src="trivia.png" alt="Card image cap">
                 <div class="card card-block">
                   <h3 class="card-title">Trivia</h3>
                   <p class="card-text">Trivia game using an API &amp; Javascript</p>
                   <p><a href="http://matt-connors.com/trivia" target="_blank" class="btn btn-success">Check it Out!</a></p>
                 </div>
-
+                </div>
+                <div class="cards">
                 <img class="card-img-top" id="photographyCard" src="viewbug.png" alt="Dog on fence">
                 <div class="card card-block">
                   <h3 class="card-title">Photography</h3>
                   <p class="card-text">My Viewbug Photography Porfolio</p>
                   <p><a href="https://www.viewbug.com/member/Matt__Connors#/Matt__Connors/gallery?sort=mostview" target="_blank" class="btn btn-success">Check it Out!</a></p>
-
+                </div>
+              </div>
               </div>
             </div>
 
