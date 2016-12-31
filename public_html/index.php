@@ -1,4 +1,63 @@
+<?php
 
+    $error = ""; $successMessage = "";
+
+    if ($_POST) {
+
+        if (!$_POST["email"]) {
+
+            $error .= "An email address is required.<br>";
+
+        }
+
+          if (!$_POST["subject"]) {
+
+            $error .= "The subject field is required.<br>";
+
+        }
+
+          if (!$_POST["content"]) {
+
+            $error .= "The content field is required.<br>";
+
+        }
+
+        if ($_POST['email'] && filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) === false) {
+
+            $error .= "The email address is invalid.<br>";
+
+        }
+
+        if ($error != "") {
+
+            $error = '<div class="alert alert-danger" role="alert"><p><strong>There were error(s) on your form:</strong></p>' . $error . '</div>';
+
+
+        } else {
+
+            $emailTo = "matthew.connors333@gmail.com";
+
+            $subject = $_POST['subject'];
+
+            $content = $_POST["content"];
+
+            $headers = "From: ".$_POST["email"];
+
+             if (mail($emailTo, $subject, $content, $headers)) {
+
+               $successMessage = '<div class="alert alert-success" role="alert">Your message was sent, I\'ll get back to you ASAP!</div>';
+
+            } else {
+
+                $error =  '<div class="alert alert-danger" role="alert"><p>Your message couldn\'t be sent. Please try again later.</p></div>';
+
+            }
+
+        }
+
+    }
+
+?>
 
 <html lang="en">
   <head>
